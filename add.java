@@ -6,15 +6,14 @@ public class add {
         float b;
         char c = 'A';
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your age: ");
         age = sc.nextInt();
+        System.out.print("Enter the Float : ");
         b = sc.nextFloat();
-
-        System.out.println(c);
-        System.out.println(b);
-
-        System.out.println(age);
+        System.out.println("Char : " + c);
+        System.out.println("Enetered float no. is " + b);
+        System.out.println("Your age is " + age);
         sc.close();
-
     }
-    
+
 }
