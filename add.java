@@ -13,6 +13,10 @@ public class add {
         System.out.println("Char : " + c);
         System.out.println("Enetered float no. is " + b);
         System.out.println("Your age is " + age);
+        // boolean a = sc.hasNextFloat();
+        // System.out.println(a);
+        int sum = age + (int) b;
+        System.out.print("SUM : " + sum);
         sc.close();
     }
 
